@@ -1,0 +1,32 @@
+/*--------- Section styling------------*/
+.main-page {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr min-content;
+}
+
+.left {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background-color: #1aa1f5;
+  /* ----- Center the content ----- */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-content div{
+  display: flex;
+  align-items: center;
+  margin: 4rem;
+  color: white;
+}
+
+/* ------ right content ----- */
+.right {
+  grid-column:  2 / -1;
+  grid-row: 1 / 2;
+  position: relative;
+}
