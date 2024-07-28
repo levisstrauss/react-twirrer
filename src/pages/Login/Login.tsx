@@ -1,8 +1,10 @@
-import React from "react";
 import { faMagnifyingGlass, faUserGroup, faComment } from "@fortawesome/free-solid-svg-icons";
-import LeftContentItem from "../../components/LeftContentItem";
 import LoginForm from "../../components/LoginForm";
 import MiddleContent from "../../components/MiddleContent";
+import Footer from "../../components/Footer";
+import LeftContentItem from "../../components/LeftContentItem";
+
+import './css/styles.css'
 
 
 const Login = () => {
@@ -16,14 +18,15 @@ const Login = () => {
                     <LeftContentItem icon={faComment} text="Join the people" />
                 </div>
             </div>
-
             {/* ----------- right side -------- */}
             <div className="right">
-                <div className="right-content">
+                <div>
                     <LoginForm />
                     <MiddleContent />
                 </div>
             </div>
+            {/* ----------- footer -------- */}
+            <Footer />
         </section>
     );
 };

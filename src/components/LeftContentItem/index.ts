@@ -1,1 +1,1 @@
-export { default } from './LeftContentItem';
+export { default } from "./LeftContentItem"
