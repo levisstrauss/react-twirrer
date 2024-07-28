@@ -1,0 +1,17 @@
+
+
+
+.main-page-footer{
+    grid-column: 1 / -1;
+    grid-row: 2 / -1;
+    background-color: #f5f4f4;
+    padding: 1.5rem;
+    border-top: 0.1rem solid #ddd;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.main-page-footer p{
+  font-size: 1.5rem;
+}
