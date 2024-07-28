@@ -13,7 +13,7 @@ const LoginForm = () => {
             />
             <div>
                 <input type="password" className="password" placeholder="Password" />
-                <label className="">Forgot Password?</label>
+                <label>Forgot Password?</label>
             </div>
             <button type="button" className="btn-top">Log in</button>
         </form>
