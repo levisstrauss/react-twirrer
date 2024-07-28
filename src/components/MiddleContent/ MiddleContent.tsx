@@ -2,6 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDove } from "@fortawesome/free-solid-svg-icons";
 
+import './css/styles.css';
+
 const MiddleContent = () => {
     return (
         <div className="middle-content">

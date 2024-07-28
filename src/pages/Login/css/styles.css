@@ -23,3 +23,10 @@
   margin: 4rem;
   color: white;
 }
+
+/* ------ right content ----- */
+.right {
+  grid-column:  2 / -1;
+  grid-row: 1 / 2;
+  position: relative;
+}

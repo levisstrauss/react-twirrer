@@ -20,10 +20,8 @@ const Login = () => {
             </div>
             {/* ----------- right side -------- */}
             <div className="right">
-                <div>
-                    <LoginForm />
-                    <MiddleContent />
-                </div>
+                <LoginForm />
+                <MiddleContent />
             </div>
             {/* ----------- footer -------- */}
             <Footer />

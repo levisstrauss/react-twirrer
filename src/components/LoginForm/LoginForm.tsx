@@ -1,5 +1,8 @@
 import React from "react";
 
+
+import './css/styles.css'
+
 const LoginForm = () => {
     return (
         <form className="right-content-form">
