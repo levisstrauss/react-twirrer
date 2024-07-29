@@ -4,12 +4,10 @@ import Navigation from '../../components/Navigation';
 
 import './css/styles.css';
 
-
 const Login = () => {
     return (
         <section className='login-page'>
            <Navigation />
-
            <div className='login'>
             <div className='login-content'>
                 <h2>Log in to Twirrer</h2>
