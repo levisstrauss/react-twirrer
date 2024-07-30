@@ -10,7 +10,7 @@ const Navigation = () => {
         <nav className='login-page-nav'>
             <ul>
                 <li className='brand'>
-                    <a href='#'><FontAwesomeIcon icon={faDove} className="login-icon"/>Home</a>
+                    <a href='#'><FontAwesomeIcon icon={faDove} className="login-logo-icon"/>Home</a>
                 </li>
                 <li><a href='#'>About</a></li>
                 <li><a href='#'>Language: English</a></li>
