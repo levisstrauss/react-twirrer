@@ -1,7 +1,7 @@
 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faHashtag, faBell, faEnvelope, faSearch, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faHashtag, faBell, faEnvelope, faSearch, faChevronDown, faStar, faImage, faCamera, faChartBar } from "@fortawesome/free-solid-svg-icons";
 
 import './css/styles.css';
 
@@ -28,6 +28,24 @@ const Feeds = () => {
                     <FontAwesomeIcon icon={faChevronDown} className="user-chevron-down"/>
                 </div>
             </nav>
+
+
+            {/* ----- feeds content -------- */}
+            <div className="feeds-header" style={{ paddingTop: '6.5rem' }}>
+                <div className="header-top">
+                   <h4>Home</h4>
+                   <FontAwesomeIcon icon={faStar} className=""/>
+                </div>
+                <div className="header-post">
+                    <div className="header-img-wrapper">
+                       <img src="assets/images/user1.jpg" />
+                    </div>
+                    <input type="text" placeholder="What's happening?" />
+                    <FontAwesomeIcon icon={faImage} className=""/>
+                    <FontAwesomeIcon icon={faCamera} className=""/>
+                    <FontAwesomeIcon icon={faChartBar} className=""/>
+                </div>
+            </div>
         </section>
     );
 };
