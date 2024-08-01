@@ -29,21 +29,22 @@ const Feeds = () => {
                 </div>
             </nav>
 
-
             {/* ----- feeds content -------- */}
-            <div className="feeds-header" style={{ paddingTop: '6.5rem' }}>
-                <div className="header-top">
-                   <h4>Home</h4>
-                   <FontAwesomeIcon icon={faStar} className=""/>
-                </div>
-                <div className="header-post">
-                    <div className="header-img-wrapper">
-                       <img src="assets/images/user1.jpg" />
+            <div className="feeds-centent">
+                <div className="feeds-header">
+                    <div className="header-top">
+                    <h4>Home</h4>
+                    <FontAwesomeIcon icon={faStar} className="star-icon"/>
                     </div>
-                    <input type="text" placeholder="What's happening?" />
-                    <FontAwesomeIcon icon={faImage} className=""/>
-                    <FontAwesomeIcon icon={faCamera} className=""/>
-                    <FontAwesomeIcon icon={faChartBar} className=""/>
+                    <div className="header-post">
+                        <div className="header-img-wrapper">
+                        <img src="assets/images/user1.jpg"/>
+                        </div>
+                        <input type="text" placeholder="What's happening?" />
+                        <FontAwesomeIcon icon={faImage} className="image-icon"/>
+                        <FontAwesomeIcon icon={faCamera} className="camera-icon"/>
+                        <FontAwesomeIcon icon={faChartBar} className="charBar-icon"/>
+                    </div>
                 </div>
             </div>
         </section>
